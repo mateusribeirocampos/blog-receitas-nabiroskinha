@@ -1,0 +1,64 @@
+# ============================================================
+# WordPress Core
+# ============================================================
+/wordpress694/wp-admin/
+/wordpress694/wp-includes/
+/wordpress694/index.php
+/wordpress694/wp-*.php
+/wordpress694/xmlrpc.php
+/wordpress694/readme.html
+/wordpress694/license.txt
+/wordpress694/wp-config-sample.php
+
+# ============================================================
+# Configuração com credenciais — nunca versionar
+# ============================================================
+/wordpress694/wp-config.php
+/wordpress694/ftpsync.settings
+/wordpress694/.htaccess
+
+# ============================================================
+# Uploads de mídia
+# ============================================================
+/wordpress694/wp-content/uploads/
+
+# ============================================================
+# Plugins e temas de terceiros
+# ============================================================
+/wordpress694/wp-content/plugins/*
+!/wordpress694/wp-content/plugins/nabiroskinha-core/
+
+/wordpress694/wp-content/themes/*
+!/wordpress694/wp-content/themes/nabiroskinha/
+
+# ============================================================
+# Cache e arquivos gerados
+# ============================================================
+/wordpress694/wp-content/cache/
+/wordpress694/wp-content/upgrade/
+/wordpress694/wp-content/backup-db/
+/wordpress694/wp-content/advanced-cache.php
+/wordpress694/wp-content/wp-cache-config.php
+/wordpress694/wp-content/object-cache.php
+
+# ============================================================
+# Arquivos locais pessoais — não sobem para o repositório
+# ============================================================
+CLAUDE.md
+SKILL.md
+adrs/
+# ============================================================
+# Sistema operacional
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Editores
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
