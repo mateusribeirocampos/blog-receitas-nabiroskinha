@@ -32,6 +32,11 @@
 !/wordpress694/wp-content/themes/nabiroskinha/
 
 # ============================================================
+# Idiomas — gerados automaticamente pelo WordPress
+# ============================================================
+/wordpress694/wp-content/languages/
+
+# ============================================================
 # Cache e arquivos gerados
 # ============================================================
 /wordpress694/wp-content/cache/
